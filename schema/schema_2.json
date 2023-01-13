@@ -1,0 +1,139 @@
+{
+    "description": "",
+    "required": false,
+    "tag": "",
+    "type": "ARRAY",
+    "properties": {
+        "user": {
+            "description": "",
+            "required": false,
+            "tag": "",
+            "type": "ARRAY",
+            "properties": {
+                "id": {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                "nickname": {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                "title": {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                "accountType": {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                "countryCode": {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                "orientation": {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                }
+            }
+        },
+        "time": {
+            "description": "",
+            "required": false,
+            "tag": "",
+            "type": "INTEGER"
+        },
+        "acl": {
+            "description": "",
+            "required": false,
+            "tag": "",
+            "type": "ENUM",
+            "properties": []
+        },
+        "publicFeed": {
+            "description": "",
+            "required": false,
+            "tag": "",
+            "type": "INTEGER"
+        },
+        "internationalCountries": {
+            "description": "",
+            "required": false,
+            "tag": "",
+            "type": "ENUM",
+            "properties": [
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                },
+                {
+                    "description": "",
+                    "required": false,
+                    "tag": "",
+                    "type": "STRING"
+                }
+            ]
+        },
+        "topTraderFeed": {
+            "description": "",
+            "required": false,
+            "tag": "",
+            "type": "INTEGER"
+        }
+    }
+}
